@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📰 Dev News
 
-## Getting Started
+Dev News is a modern news portal built using **Next.js App Router**.  
+This project demonstrates advanced Next.js features including:
 
-First, run the development server:
+- Custom API Routes
+- Dynamic JSON Import
+- Slug-based Dynamic Routing
+- Parallel & Intercepting Routes
+- Modal Routing System
+- PATCH & DELETE API Operations
+- Multi-language Support (English & Bangla)
+- Proper Error Handling
+- Custom Not Found Pages
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 🔹 Custom API Endpoints
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### 1️⃣ GET All News  
+GET /api/news
+Returns all news from `data.json`.
 
-## Learn More
+#### 2️⃣ GET Single News  
+GET /api/news/{slug}
+Returns specific news object by slug.
 
-To learn more about Next.js, take a look at the following resources:
+#### 3️⃣ PATCH News  
+PATCH /api/news/{slug}
+Allows updating only:
+- `title`
+- `description`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✅ Returns updated news object  
+❌ Throws error if other fields are modified  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### 4️⃣ DELETE News  
+DELETE /api/news/{slug}
+Deletes the specific news.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🔹 Dynamic JSON Import
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Instead of using fetch/axios, the `data.json` file is dynamically imported and rendered directly into UI as News Cards.
+
+---
+
+### 🔹 Vote & Date Formatting
+
+- 2500 → 2.5K
+- Date formatted according to UI requirement
+
+---
+
+### 🔹 Advanced Routing
+
+- `/news/:slug` dynamic route
+- Parallel Routing
+- Intercepting Routing
+- Modal opens on card click
+- Page reload shows standalone page
+- Common Not Found page
+- Single News Not Found page:
+  
+This News with {slug} id was not found!
+
+---
+
+### 🔹 Multi-language Support
+
+Supports:
+
+- 🇺🇸 English
+- 🇧🇩 বাংলা
+
+✔ Browser default language detection  
+✔ Only hardcoded UI text translated  
+✔ data.json content remains unchanged  
+
+---
+
+## 🛠 Tech Stack
+
+- Next.js 14 (App Router)
+- Tailwind CSS
+- JavaScript
+- Dynamic Import
+- REST API Handling
+
+---
+
+## 📂 Project Structure
+
+app/
+├── api/
+│ ├── news/route.js
+│ ├── news/[slug]/route.js
+│
+├── news/
+│ ├── [slug]/page.js
+│ ├── @modal/(..)news/[slug]/page.js
+│
+├── not-found.js
+│
+public/
+├── data.json
+├── en.json
+├── bn.json
