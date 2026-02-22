@@ -1,19 +1,5 @@
 [
   {
-    "id": 1,
-    "slug": "the-css-if-function-has-arrived",
-    "title": "The CSS if() Function Has Arrived!",
-    "description": "CSS now supports conditional logic with the new if() function, officially shipped in Chrome 137. This feature enables developers to set CSS properties based on conditions without JavaScript or preprocessors. The function supports three main capabilities: style queries for reacting to CSS custom properties, inline media queries for responsive design, and feature detection with supports(). Real-world applications include simplified dark mode implementation, design system components, and responsive containers. Browser support is currently limited to Chrome/Edge 137+ with Firefox in development and Safari on the roadmap",
-    "author_name": "Bogdan Fuerea",
-    "author_avatar": "devnews1767153562942.jpg",
-    "published_date": "2025-12-08",
-    "tags": ["Frontend", "CSS", "WebDev"],
-    "upvotes": "3602",
-    "downvotes": "10",
-    "views": "88702",
-    "thumbnail": "devnews1767153563077.webp"
-  },
-  {
     "id": 2,
     "slug": "build-smarter-apps-with-gemini-3-flash",
     "title": "Build smarter apps with Gemini 3 Flash",
@@ -21,7 +7,11 @@
     "author_name": "Android Developers Blog",
     "author_avatar": "devnews1767153708145.webp",
     "published_date": "2025-12-05",
-    "tags": ["AI", "WebDev", "Android"],
+    "tags": [
+      "AI",
+      "WebDev",
+      "Android"
+    ],
     "upvotes": "89192",
     "downvotes": "96",
     "views": "60983",
@@ -35,7 +25,11 @@
     "author_name": "Daniel Schwarz ",
     "author_avatar": "devnews1767153781714.png",
     "published_date": "2025-12-01",
-    "tags": ["Frontend", "CSS", "WebDev"],
+    "tags": [
+      "Frontend",
+      "CSS",
+      "WebDev"
+    ],
     "upvotes": "66410",
     "downvotes": "10",
     "views": "32963",
@@ -49,7 +43,11 @@
     "author_name": "80 LEVEL",
     "author_avatar": "devnews1767153839708.webp",
     "published_date": "2025-12-26",
-    "tags": ["WebDev", "Gaming", "Steam"],
+    "tags": [
+      "WebDev",
+      "Gaming",
+      "Steam"
+    ],
     "upvotes": "57505",
     "downvotes": "12",
     "views": "65984",
@@ -63,7 +61,11 @@
     "author_name": "Neel Dozome",
     "author_avatar": "devnews1767153914435.jpg",
     "published_date": "2025-12-11",
-    "tags": ["Frontend", "Design", "WebDev"],
+    "tags": [
+      "Frontend",
+      "Design",
+      "WebDev"
+    ],
     "upvotes": "37715",
     "downvotes": "21",
     "views": "2902",
@@ -77,7 +79,11 @@
     "author_name": "Sumonta Saha Mridul",
     "author_avatar": "devnews1767153977803.webp",
     "published_date": "2025-12-19",
-    "tags": ["WebDev", "CodeReview", "JuniorDeveloper"],
+    "tags": [
+      "WebDev",
+      "CodeReview",
+      "JuniorDeveloper"
+    ],
     "upvotes": "33130",
     "downvotes": "19",
     "views": "26513",
@@ -91,7 +97,11 @@
     "author_name": "Elevate",
     "author_avatar": "devnews1767154054830.webp",
     "published_date": "2025-12-21",
-    "tags": ["AI", "WebDev", "Coding"],
+    "tags": [
+      "AI",
+      "WebDev",
+      "Coding"
+    ],
     "upvotes": "17287",
     "downvotes": "16",
     "views": "9172",
@@ -105,7 +115,11 @@
     "author_name": "Hacker News",
     "author_avatar": "devnews1767154131121.webp",
     "published_date": "2025-12-27",
-    "tags": ["AI", "WebDev", "Coding"],
+    "tags": [
+      "AI",
+      "WebDev",
+      "Coding"
+    ],
     "upvotes": "56313",
     "downvotes": "32",
     "views": "96262",
@@ -119,7 +133,11 @@
     "author_name": "TechCrunch",
     "author_avatar": "devnews1767154305762.webp",
     "published_date": "2025-12-25",
-    "tags": ["AI", "WebDev", "Coding"],
+    "tags": [
+      "AI",
+      "WebDev",
+      "Coding"
+    ],
     "upvotes": "61940",
     "downvotes": "54",
     "views": "72605",
@@ -133,7 +151,11 @@
     "author_name": "Make WordPress Core",
     "author_avatar": "devnews1767154401940.webp",
     "published_date": "2025-12-18",
-    "tags": ["AI", "WebDev", "Coding"],
+    "tags": [
+      "AI",
+      "WebDev",
+      "Coding"
+    ],
     "upvotes": "13562",
     "downvotes": "47",
     "views": "17280",
@@ -147,7 +169,11 @@
     "author_name": "The Palindrome",
     "author_avatar": "devnews1767154435141.webp",
     "published_date": "2025-12-21",
-    "tags": ["AI", "WebDev", "Coding"],
+    "tags": [
+      "AI",
+      "WebDev",
+      "Coding"
+    ],
     "upvotes": "99444",
     "downvotes": "96",
     "views": "26802",
@@ -161,7 +187,11 @@
     "author_name": "Platformatic",
     "author_avatar": "devnews1767154482231.webp",
     "published_date": "2025-12-17",
-    "tags": ["AI", "WebDev", "Coding"],
+    "tags": [
+      "AI",
+      "WebDev",
+      "Coding"
+    ],
     "upvotes": "29057",
     "downvotes": "37",
     "views": "70575",
