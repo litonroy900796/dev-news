@@ -36,6 +36,7 @@ export default function RootLayout({ children }) {
           <div className="relative mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
             <Header />
             {children}
+            <div id="modal-root-content" />
           </div>
         </div>
       </body>

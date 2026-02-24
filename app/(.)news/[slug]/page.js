@@ -1,4 +1,5 @@
 import NewDetails from "@/components/NewsDetails/NewDetails";
+import Modal from "@/components/ui/Modal";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -18,8 +19,10 @@ export default async function BlogDetailsPage({ params }) {
   const news = await getSingleNews(slug);
 
   return (
-    <>
-      <NewDetails news={news} />
-    </>
+    <Modal>
+      <section className="-mt-14">
+        <NewDetails news={news} />
+      </section>
+    </Modal>
   );
 }
