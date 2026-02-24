@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Card from "./Card";
+import news from "@/data/data.json";
 
 export default function TrendingSection() {
   return (
@@ -14,9 +15,9 @@ export default function TrendingSection() {
       </div>
 
       <section className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {/* CARD 1 */}
-        <Card />
-        <Card />
+        {news.map((item) => (
+          <Card key={item.id} item={item} />
+        ))}
       </section>
     </main>
   );
